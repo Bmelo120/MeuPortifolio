@@ -43,7 +43,7 @@ function Hero() {
                        <Typography color="primary.contrastText" variant="h4" textAlign="center"> Analista e Desenvolvedora de Sistemas </Typography>                      
                         <Grid2 container display="flex" justifyContent="center" spacing={3} pt={3}>
                             <Grid2 size={{ xs: 12, md: 4 }} display="flex" justifyContent="center">
-                                <StyledButton> 
+                                <StyledButton onClick={() => console.log("baixou")}> 
                                     <DownloadingIcon/> 
                                         <Typography> 
                                             Download CV
@@ -51,7 +51,7 @@ function Hero() {
                                 </StyledButton>
                             </Grid2>
                             <Grid2 size={{ xs: 12, md: 4 }} display="flex" justifyContent="center">
-                                <StyledButton> 
+                                <StyledButton onClick={() => console.log("ola")}> 
                                     <ForwardToInboxIcon/> 
                                         <Typography>
                                             Contato 
